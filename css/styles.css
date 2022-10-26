@@ -1,0 +1,167 @@
+a
+{
+  color: #81C6E8;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #EAF6F6;
+}
+body
+{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  font-weight: bolder;
+  /*text-align - this property doesn't work for elements which have a width
+  associated to them to overcome this margin property of CSS is used to center those elements*/
+}
+/* font-size : This property gets inherited when 'em' is used thus 'rem' is used*/
+hr
+{
+  background-color: inherit;
+  border-style: dotted none none;
+  border-color: #BAD1C2;
+  width: 5%;
+  border-width: 7.5px;
+}
+h1
+{
+  margin: 25px auto 25px auto;
+  font-family: 'Kaushan Script', cursive;
+  color: #0AA1DD;
+  font-size: 5.5rem; /* 16px=100%=1em for fonts; use rem-Root em to avoid inheritance property of font-size */
+  /*If an element has width:-
+  width:10%;
+  margin: 0 auto 0 auto; // CW fashion-top right bottom left
+  auto - centers the element either vertically or horizontally*/
+}
+h2
+{
+  color: #0AA1DD;
+  font-weight: bolder;
+  font-family: 'Merriweather', serif;
+  font-size: 1.75rem;
+  line-height: 2;
+}
+h3
+{
+  color: #81C6E8;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+.top_container
+{
+  background-color: #AEDBCE;
+  position: relative; /*for absolute positioing to have a parent*/
+  padding-top: 100px;
+}
+.profile
+{
+    width: 40%;
+    margin: 50px auto 75px auto;
+}
+.bottom-container
+{
+  background-color: #AEDBCE;
+  padding: 30px;
+  margin: 0;
+}
+.top-cloud
+{
+  height:15%;
+  width: 15%;
+  position: absolute;
+  right: 15%;
+  top: 7.5%;
+}
+.bottom-cloud
+{
+  height:15%;
+  width: 15%;
+  position: absolute;
+  left: 18.5%;
+  bottom: 50%;
+}
+.mountain
+{
+  height: 100%;
+  width: 100%;
+}
+span
+{
+  text-decoration: underline;
+}
+.skill-row
+{
+  width: 60%;
+  margin: 60px auto 140px auto;
+  text-align: justify;
+  line-height: 2;
+}
+.comp-pic
+{
+  width:37.5%;
+  float: left;
+  margin-right: 30px;
+}
+.code-pic
+{
+  width: 25%;
+  float: right; /*used to wrap text around elements*/
+  margin-left: 30px;
+}
+/* clear: left/right/top/bottom; anti-float property*/
+.profile-pic
+{
+  width: 50%;
+  margin: 25px auto;
+}
+.contact-me
+{
+  margin: 75px auto 75px auto;
+}
+.name-para
+{
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+.footer-link
+{
+  color: #0AA1DD;
+  margin: 20px 20px;
+}
+.BUTTON_UIF {
+   background: #81C6E8;
+   background-image: -webkit-linear-gradient(top, #81C6E8,#0AA1DD);
+   background-image: -moz-linear-gradient(top, #81C6E8, #0AA1DD);
+   background-image: -ms-linear-gradient(top, #81C6E8,#0AA1DD);
+   background-image: -o-linear-gradient(top, #81C6E8, #0AA1DD);
+   background-image: -webkit-gradient(to bottom, #81C6E8, #0AA1DD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_UIF:hover {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
